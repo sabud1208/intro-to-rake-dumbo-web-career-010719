@@ -24,6 +24,7 @@ class Student
         )
     SQL
     DB[:conn].execute(sql) 
+     namespace 
   end
 
   def self.drop_table
